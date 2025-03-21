@@ -3,7 +3,7 @@
 Plugin Name: Marker.io
 Plugin URI:  https://marker.io/wordpress-website-feedback-plugin
 Description: Collect visual website feedback from colleagues and clients directly in your WordPress site.
-Version:     1.1.10
+Version:     1.2.1
 Author:      Marker.io
 Author URI:  https://marker.io
 License:     GPLv2
@@ -30,8 +30,8 @@ function markerio_enqueue_admin_script($hook)
     return;
   }
 
-  wp_enqueue_style('markerio_style', plugin_dir_url(__FILE__) . 'dist/styles.css', [], '1.1.10');
-  wp_enqueue_script('markerio_script', plugin_dir_url(__FILE__) . 'dist/scripts.js', [], '1.1.10');
+  wp_enqueue_style('markerio_style', plugin_dir_url(__FILE__) . 'dist/styles.css', [], '1.2.1');
+  wp_enqueue_script('markerio_script', plugin_dir_url(__FILE__) . 'dist/scripts.js', [], '1.2.1');
 }
 add_action('admin_enqueue_scripts', 'markerio_enqueue_admin_script');
 

@@ -3,7 +3,7 @@ Contributors: markerio
 Tags: feedback, bug-tracking, feedback widget, website feedback, visual feedback
 Requires at least: 4.7
 Tested up to: 6.6
-Stable tag: 1.1.10
+Stable tag: 1.2.1
 Requires PHP: 5.6
 License: GPLv2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -130,6 +130,12 @@ Send us an email at support@marker.io or use the live chat on our website.
 Yes, the plugin is compatible with WooCommerce.
 
 == Changelog ==
+
+= 1.2.1 =
+* Resolved an issue related to project connection functionality
+
+= 1.2.0 =
+* Compatibility updates
 
 = 1.1.10 =
 * Support for Wordpress 6.6
